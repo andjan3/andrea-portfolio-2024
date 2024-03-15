@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Andréa Jandergren</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script src="./lib/anime.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/9605ade1b0.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="container">
+
+            <div class="logo">
+                <a href="./index.html">
+                    A.
+                </a>
+            </div>
+            
+            <div class="nav">
+				<div class="off-screen-menu">
+					<ul>
+						<li class="nav-link active"><a href="index.html">Home</a></li>
+						<li class="nav-link"><a href="#about">About</a></li>
+                        <li class="nav-link"><a href="#skills">Skills</a></li>
+                        <li class="nav-link"><a href="#projects">Projects</a></li>
+						<li class="nav-link"><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+				<nav>
+					<div class="hamburger-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</nav>
+			</div>
+            
+        </div>
+        <div class="hero">
+            <div class="content">
+                <p class="animation">Hey there,</p>
+                <span id="text"class="hero-text animation">I'M</span>
+                <p class="animation">A junior Front End Developer -with a great curiosity in advancing my skills, exploring new technologies and creating visually appealing web experiences.</p>
+                
+                <div class="social">
+                    <a class="icon-link" href="https://www.facebook.com/andrea.jandergren/?locale=sv_SE" target="_blank">
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                    </a>
+                    
+                    <a class= "icon-link" href="https://www.instagram.com/andreeaj/" target="_blank">
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </a>
+
+                    <a class= "icon-link" href="https://github.com/andjan3" target="_blank">
+                        <div class="icon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </a>
+
+                    <a class= "icon-link" href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAEadHvIBv4B3YaaEW2ItbTfLC8S5ARZ3eX8&keywords=andr%C3%A9a%20jandergren&origin=RICH_QUERY_SUGGESTION&position=0&searchId=9ff6b3ec-2fdb-41a6-99a8-edbe217c89c3&sid=t-8&spellCorrectionEnabled=false" target="_blank">
+                        <div class="icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </a>
+                </div>
+                  
+                <a class="cv-link" href="pdf/cv.pdf" target="_blank">Download CV</a>
+            </div>
+
+            <div class="hero-image">
+                <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg-background"><path id="Layer" d="m0 160l48.3 5.9c24 0 62.7 2.9 110.7-18.4 48-21.7 84-78.4 132-89.4 48-11 102.5 5.2 150.5 36.9 48 32.3 92.5 76.6 140.5 103.6 48 27 90 44.1 138 41.4 48.2-2.7 100.7-29.3 148.7-55.6 48-26.7 85.4-63.5 133.4-58.2 48 5.7 104 56.9 154.8 71 51.1 14.2 89.4 21.3 139.1 0.1 50.4-21.4 81-78.9 105-105.2l39-28.1v-64h-24c-24 0-72 0-120 0q-72 0-144 0-72 0-144 0-72 0-144 0-72 0-144 0-72 0-144 0-72 0-144 0-72 0-144 0-72 0-144 0c-48 0-96 0-120 0h-24z"></path></svg>
+                <img class= "hero-picture" src="./img/hero-image.png" alt="picture of Andréa">
+            </div> 
+        </div>
+    </header> 
+    
+    <section id= "about" class="section-about">
+        <div class="about-content-container">
+            <div class="circle-container">
+                <img src="./img/computer.jpg" alt="tech woman emoji">
+                <div class="circle" >
+                    <div class="circle-logo"></div>
+                    <div class="circle-text">
+                        <p id="circleText">Front end web developer - </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-text">
+                <h3 class="animation">About me</h3>
+                <p class="animation">A person with a strong interest in usability and an accessibility-oriented perspective in the development and creation of web applications. The combination of problem-solving skills and the ability to craft visually appealing creations is one of the key reasons why I chose to specialize in front-end development.</p>
+                <p class="animation">In my spare time, I immerse myself in mini-projects to fuel my growth as a front-end developer.Beyond coding, I find joy in staying active through activities such as boxing and badminton. Additionally, I cherish moments spent catching up with friends and family whenever possible.</p>
+                <p class="animation">Feel free to <strong>reach out</strong> to me. I am currently seeking <strong>internship</strong> opportunities from November 2024 to May 2025. – I look forward to <strong>exploring</strong> exciting opportunities <strong>together!</strong></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="section-skills ">
+        <div class="heading">
+            <h2>SKILLS</h2>
+        </div>
+                    
+        <div id ="skills" class="skills-div">
+
+            <div class="first-skill-header">   
+                <h3 class="skills-header">Languages</h3>
+            </div>
+            <ul class="skills-container animation">
+                <li class="skills-wrapper">
+                    <img  src="./img/icons/html-5.png" alt="HTML icon">
+                    <p>Html</p>
+                </li>
+                <li class="skills-wrapper">
+                    <img  src="./img/icons/css3.png" alt="CSS icon">
+                    <p>Css</p>
+                </li>
+                <li class="skills-wrapper">
+                    <img src="./img/icons/js (2).png" alt="Javascript icon">
+                    <p>Javascript</p>
+                </li>
+                <li class="skills-wrapper">
+                    <img src="./img/icons/typescript.png" alt="Typescript icon">
+                    <p>Typescript</p>
+                </li>
+            </ul>
+            <h3 class="skills-header">Liberaries</h3>
+            <ul class="skills-container animation">
+                <li class="skills-wrapper">
+                    <img src="./img/icons/jquery.png" alt="jQuery icon">
+                    <p>jQuery</p>
+                </li>
+                <li class="skills-wrapper">
+                    <img src="./img/icons/bootstrap.png" alt="Bootstrap icon">
+                    <p>Bootstrap</p>
+                </li>
+                <li class="skills-wrapper">
+                    <img src="./img/icons/animejs (2).png" alt="Animejs">
+                    <p>Anime.js</p>
+                </li>
+            </ul>
+            <h3 class="skills-header">Tools</h3>
+            <ul class="skills-container animation">
+                <li class="skills-wrapper">
+                    <img src="./img/icons/node-js.png" alt="Nodejs icon">
+                    <p>Node.js</p>
+                </li>
+                <li class="skills-wrapper">
+                    <img src="./img/icons/figma.png" alt="Figma icon">
+                    <p>Figma</p>
+                </li>
+                <li class="skills-wrapper">
+                    <img src="./img/icons/postman-icon.png" alt="Postman icon">
+                    <p>Postman</p>
+                </li>
+                <li class="skills-wrapper">
+                    <img src="./img/icons/github.png" alt="Github icon">
+                    <p>Github</p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+                
+    <button id="scrollToTop" class="hover-effect"><i class="fa-solid fa-arrow-up fa-lg"></i></button>
+    <section class="section-projects">
+        <div id= "projects" class="heading">
+            <h2>PROJECTS</h2>
+        </div>
+    </section>
+    
+    <article class="project-container"> 
+        <div class="project-card animation">
+            <figure class="project-img"> 
+                <a class="grow" target="_blank" href="https://andjan3.github.io/fe23-js1-mp2-andrea-jandergren/">
+                    <img  src="./img/rockScissorPaper.png" alt="Picture of my project rock, scissors, paper">
+                </a>   
+            </figure>
+            
+            <div class ="project-text">
+                <span>Rock, Scissor, Paper</span>
+                <p>The first game I ever created- enjoy! </p>
+            </div>
+
+            <ul class="project-skills">
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <div class="project-icons">
+                <a target="_blank" href="https://andjan3.github.io/fe23-js1-mp2-andrea-jandergren/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> Live Demo </a>
+                <a target="_blank"  href="https://github.com/andjan3/fe23-js1-mp2-andrea-jandergren"><i class="fa-brands fa-github fa-lg"></i></i> Code</a>
+            </div>
+        </div>
+
+        <div class="project-card animation">
+            <figure class="project-img"> 
+                <a class="grow" target="_blank" href="https://andjan3.github.io/FE23-js1-slutprojekt-andrea-jandergren/index.html">
+                    <img src="./img/movieDatabase.png" alt="Picture of my project Movie data base">
+                </a>
+            </figure>
+
+            <div class ="project-text">
+                <span> Movie database</span>
+                <p>A website displaying trending movies, featuring both the top ten movies and the most popular ones.</p>
+            </div>
+
+            <ul class="project-skills">
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>API</li>
+            </ul>
+           
+            <div class="project-icons">
+                <a target="_blank" href="https://andjan3.github.io/FE23-js1-slutprojekt-andrea-jandergren/index.html"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> Live Demo </a>
+                <a target="_blank"  href="https://github.com/andjan3/FE23-js1-slutprojekt-andrea-jandergren"><i class="fa-brands fa-github fa-lg"></i></i> Code</a>
+            </div>
+        </div>
+
+        <div class="project-card animation">
+            <figure class="project-img"> 
+                <a class="grow" target="_blank" href="https://tevee.github.io/versionshantering-mp1/">
+                    <img src="./img/chefsKiss.png" alt="Picture of my project Chefs kiss">
+                </a> 
+            </figure>
+
+            <div class ="project-text">
+                <span> Chefs kiss - recipe website</span>
+                <p>Shows random recipes in specified categories, allows ingredient-based searches, and provides instructions for selected recipes.</p>
+            </div>
+
+            <ul class="project-skills">
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>API</li>
+                <li>Version control</li>
+            </ul>
+           
+            <div class="project-icons">
+                <a target="_blank" href="https://tevee.github.io/versionshantering-mp1/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> Live Demo </a>
+                <a target="_blank"  href="https://github.com/tevee/versionshantering-mp1"><i class="fa-brands fa-github fa-lg"></i></i> Code</a>
+            </div>
+        </div>
+
+        <div class="project-card animation">
+            <figure class="project-img"> 
+                <a class="grow" target="_blank" href="https://tevee.github.io/versionshantering-grupp5-slutprojekt/">
+                    <img src="./img/messageboard.png" alt="Picture of my project Messageboard">
+                </a>
+            </figure>
+
+            <div class ="project-text">
+                <span> Message board</span>
+                <p>A message board which allows users to post messages,  like,  pick background color and other fun features. Try it out!  </p>
+            </div>
+
+            <ul class="project-skills">
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>API</li>
+                <li>Version control</li>
+            </ul>
+
+            <div class="project-icons">
+                <a target="_blank" href="https://tevee.github.io/versionshantering-grupp5-slutprojekt/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> Live Demo </a>
+                <a target="_blank"  href="https://github.com/tevee/versionshantering-grupp5-slutprojekt"><i class="fa-brands fa-github fa-lg"></i></i> Code</a>
+            </div>
+        </div>
+
+        <div class="project-card animation">
+            <figure class="project-img"> 
+                <a class="grow" target="_blank" href="https://github.com/andjan3/FE23-js2-i2-andrea-jandergren/tree/main">
+                    <img src="./img/scrumBoard.png" alt="Picture of my scrum board project">
+                </a>
+            </figure>
+
+            <div class ="project-text">
+                <span> Scrum board</span>
+                <p>A Scrum board for task posting and assignment, running on a simulated database I created.</p>
+            </div>
+
+            <ul class="project-skills">
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Node.js</li>
+                <li>Parcel</li>
+            </ul>
+
+            <div class="project-icons margin">
+                <a target="_blank"  href="https://github.com/andjan3/FE23-js2-i2-andrea-jandergren/tree/main"><i class="fa-brands fa-github fa-lg"></i> Code</a>
+            </div> 
+        </div>
+    </article>
+
+    <div id="contact" class="form-container">
+        <form id="contactForm" class="form-contact">
+            <h3  class="contact-title">Contact me</h3>
+        
+            <div class="input-box">
+                <div class ="form-contact-div">
+                    <input type="text" id="first-name" name="firstName" placeholder="First name" class="item" autocomplete="off">
+                    <div class="error-text">*First name can't be blank</div>
+                </div>
+                <div class ="form-contact-div">
+                    <input type="text" id="number" name="number" placeholder="Phone number" class="item" autocomplete="off">
+                    <div class="error-text">*Phone number can't be blank</div>
+                </div>
+                
+                <div class ="form-contact-div">
+                    <input type="text" id="last-name" name="lastName" placeholder="Last name" class="item" autocomplete="off">
+                    <div class="error-text">*Last name can't be blank</div>
+                </div>
+                <div class ="form-contact-div">
+                    <input type="text" id="email" name="email" placeholder="Email adress" class="item" autocomplete="off">
+                    <div class="error-text">*Email adress can't be blank</div>
+                </div>
+            </div>
+                
+            <div class="message-box" >
+                <input type="text" id="subject" name="subject" placeholder="Enter subject" class="item" autocomplete="off">
+                <textarea  id="message" name="freeform" rows="6" cols="24" placeholder="Enter your message" class="item" autocomplete="off"></textarea> 
+                <div class="error-text">*Message can't be blank</div>
+            </div> 
+      
+            <div class="btn-send-div">
+                <button  class= "button-send" type="submit">Send</button>
+            </div>
+               
+        </form>
+    </div>
+
+    <footer id="footer-container">
+        <div class = "social-icons">
+            <a href="https://www.facebook.com/andrea.jandergren/?locale=sv_SE" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/andreeaj/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/andjan3" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAEadHvIBv4B3YaaEW2ItbTfLC8S5ARZ3eX8&keywords=andr%C3%A9a%20jandergren&origin=RICH_QUERY_SUGGESTION&position=0&searchId=9ff6b3ec-2fdb-41a6-99a8-edbe217c89c3&sid=t-8&spellCorrectionEnabled=false" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <div class="footer-content">
+            <b>Contact</b>
+            <p>andreea.j@hotmail.com</p>
+        </div>
+    </footer>
+           
+</body>
+</html>
