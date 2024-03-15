@@ -596,6 +596,7 @@ hr{
     color: white;
     background-color: #9db6bd;
     cursor: pointer;
+    z-index: 1000;
 }
 
 .section-title, .contact-title{
