@@ -348,6 +348,7 @@ nav {
 .section-skills{
     border-top: 1px solid #e9eaeb;
     background-color: #f9f9f9;
+    height: auto;
    
 }
 
