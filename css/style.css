@@ -316,6 +316,9 @@ nav {
     color: #717275;
 }
 
+.about-text{
+    margin-bottom:3rem;
+}
 .circle-container img {
     width: 360px;
  
@@ -333,12 +336,13 @@ nav {
 .heading h2{
     color: #9db6bd;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .section-skills{
     border-top: 1px solid #e9eaeb;
     background-color: #f9f9f9;
-    height: 130vh;
+    height: auto;
 }
 
 .skills-div {
@@ -401,6 +405,7 @@ nav {
 .heading{
     width: 360px;
     margin: auto;
+
    
 }
 
@@ -550,7 +555,7 @@ hr{
 }
 
 #projects{
-   
+    margin-top: 2rem;
     color: #9db6bd;
 }
 
@@ -950,6 +955,8 @@ footer{
 
     .circle-container{
         position: relative;
+        margin-top: 3rem;
+        
       
     }
 
@@ -1078,6 +1085,12 @@ footer{
 
     .project-img img{
        min-height: 40vh;
+    }
+
+    .circle-container{
+       
+        margin-top: 0rem;
+      
     }
 
     /*Contact styling goes here */
