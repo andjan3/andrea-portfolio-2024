@@ -348,7 +348,7 @@ nav {
 .section-skills{
     border-top: 1px solid #e9eaeb;
     background-color: #f9f9f9;
-    height: auto;
+   
 }
 
 .skills-div {
@@ -1081,7 +1081,7 @@ footer{
    
     .project-card{
      width: 25vw;
-        height: 90vh;
+        height: 95vh;
         
     }
 
