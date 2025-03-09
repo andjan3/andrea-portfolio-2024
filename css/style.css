@@ -51,7 +51,7 @@
 .header {
     width: 100%;
     background-size: 100%;
-    min-height: 800px;
+    min-height: 90vh;
 }
 
 .logo a{
@@ -318,14 +318,16 @@ nav {
 
 .circle-container img {
     width: 360px;
-    margin-top: 1.5rem;
+ 
     border-radius: 20px;
-    margin-top: 4rem;
+  
 }
 
 .circle-text p{
     display:none;
 }
+
+
 
 /*Section skills styling goes here*/
 .heading h2{
@@ -336,16 +338,19 @@ nav {
 .section-skills{
     border-top: 1px solid #e9eaeb;
     background-color: #f9f9f9;
-    height: 800px;
+    height: 130vh;
 }
 
 .skills-div {
     width: 360px;
     margin:auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    height: 700px;
+    height: auto;
     border-radius: 20px;
     padding-left: 1rem;   
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
 }
 
 .skills-container{
@@ -424,7 +429,11 @@ nav {
     border-radius: 100%;
     border: 4px solid white;
 }
-  
+
+.project-img > a > img {
+    height: 30vh !important;
+}
+
 .project-heading h2, .about-heading h2, .skills-heading h2{
     font-size: 2rem;
 }
@@ -439,15 +448,16 @@ hr{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 3000px;
+    height: auto;
 }
 
 .project-card{
     width: 340px;
-    height: 560px;
+    height: auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: 1px solid #ececec;
     margin: 20px;
+    padding-bottom: 1.5rem;
 }
 
 .project-img{
@@ -539,6 +549,11 @@ hr{
     justify-content: space-around;
 }
 
+#projects{
+   
+    color: #9db6bd;
+}
+
 .project-icons a{
     outline: 0;
     grid-gap: 8px;
@@ -579,9 +594,14 @@ hr{
 .form-container{
     background-color: #f9f9f9;
     border-top: 1px solid #e9eaeb;
-    display:flex;
+   
     justify-content: center;
     align-items: center;
+  
+}
+
+form{
+    padding:2rem;
 }
 
 #scrollToTop {
@@ -600,17 +620,23 @@ hr{
 }
 
 .section-title, .contact-title{
+    margin-bottom: 1rem;
+  
+}
+
+
+.contact-title{
     margin-top: 1rem;
     font-size: 20px;
     width: 100%;
     text-align: center;
 }
-
 .input-box {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     gap: 10px; 
-    margin: 10px 15px 0px 15px;
+  
 }
 
 .form-contact-div {
@@ -619,13 +645,10 @@ hr{
     
 }
 
-#first-name, #last-name{
-    height: 2.5rem;
+#full-name{
     width:100%;
-    font-size: 0.8rem;
-    
-} 
-
+    height: 2.5rem;
+}
 #email, #number{
     height: 2.5rem;
     width: 100%;
@@ -691,7 +714,7 @@ hr{
   white-space: nowrap;
   background-color: #385cd1e5;
   margin-top: 1rem;
-  border-radius: 20px;
+  border-radius: 5px;
   width: 30%;
   padding: 2px;
 
@@ -724,7 +747,7 @@ input, textarea {
 }
 
 textarea{
-    width: 90%;
+    width: 100%;
     height: 20vh;
     resize: none;
 }
@@ -783,8 +806,8 @@ footer{
 @media (min-width: 768px) {
 
     body{
-        max-width: 1400px;
-        margin:auto;
+       /*  max-width: 1400px;
+        margin:auto; */
         overflow-x: hidden;
     }
 
@@ -798,6 +821,13 @@ footer{
         position: fixed;
         top:0;
         z-index: 10000; 
+      
+     
+      
+    }
+
+    .hero{
+        margin-top: 14%;
     }
 
     .titles{
@@ -809,7 +839,7 @@ footer{
     }
     
     .off-screen-menu > ul {
-        width: 100%;
+       
         display: flex;
         justify-content: space-around;
         margin-top: 1rem;
@@ -838,7 +868,7 @@ footer{
     }
 
     .hero p{
-        width: 70%;
+        width: 50%;
     }
     
     .hero-text {
@@ -846,8 +876,9 @@ footer{
     }
 
     .content{
-        width: 55%;
-        padding:14%;
+        width: 45%;
+     padding:0%;
+    
     }
 
     .svg-background{
@@ -891,12 +922,24 @@ footer{
         text-transform: capitalize;
         margin-bottom: 30px;
         position: relative;
-        width: 1078px;
+        width: 83vw;
         margin:auto; 
         padding-left: 10px;
         margin-top: 3.5rem;
     }
     
+    #projects{
+        font-size: 2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+        position: relative;
+        width: 70vw;
+        margin:auto; 
+        padding-left: 10px;
+        margin-top: 3.5rem;
+        color: #9db6bd;
+    }
     .about-content-container{
         width: 100%;
         display:flex;
@@ -907,6 +950,7 @@ footer{
 
     .circle-container{
         position: relative;
+      
     }
 
     .circle-container img{
@@ -980,22 +1024,23 @@ footer{
 
     /*Section skills styling goes here */
     .section-skills {
-        height: 650px;
+        height: 110vh;
     }
 
     .skills-container{
         width: 500px;
+        flex-wrap: nowrap;
     }
 
     .skills-div {
         box-shadow: none;
-        width: 1094px;
+        width: 83vw;
         height: 500px;
     }
     
     .skills-wrapper{
-        height: 6rem;
-        width: 6rem;
+        min-height: 6rem;
+        min-width: 6rem;
     }
 
     .project-heading, .about-heading, .skills-heading{
@@ -1003,19 +1048,36 @@ footer{
         width: 50%;
     }
 
-    .section-about, .section-projects{
+    .section-about{
         margin-top: 3rem;
         width: 100%;
         margin:0;
     }
     
+    .section-projects{
+        width: 88%;
+        margin-top: 3rem;
+        margin:0;
+    }
     .project-container{
-        height: 1300px;
+        height: auto;
+        padding-bottom: 2rem;
        
+    }
+
+   
+    .project-card{
+     width: 25vw;
+        height: 90vh;
+        
     }
 
     .margin{
         margin-left: 200px;
+    }
+
+    .project-img img{
+       min-height: 40vh;
     }
 
     /*Contact styling goes here */
@@ -1026,6 +1088,7 @@ footer{
     
     .form-container{
         height: 600px;
+        display: flex;
     }
 
     .form-contact {
